@@ -18,7 +18,9 @@ image shows the detected coin boundaries and count.
 ## Requirements
 
 - Python 3.8 or newer
-- The Python dependencies listed in [`requirements.txt`](requirements.txt)
+- OpenCV
+- NumPy
+- Matplotlib
 - A desktop environment capable of displaying an OpenCV window
 
 ## Installation
@@ -34,7 +36,7 @@ Install the dependencies:
 
 ```powershell
 python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
+python -m pip install opencv-python numpy matplotlib
 ```
 
 ## Usage
@@ -55,7 +57,6 @@ focused to close it. The annotated image is also saved as `output.jpg`.
 | `coin_detector.py` | Coin detection script |
 | `coin.jpg` | Sample input image |
 | `output.jpg` | Example generated output |
-| `requirements.txt` | Python dependencies |
 
 ## Adjusting detection
 
